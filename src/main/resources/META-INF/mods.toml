@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+
+[[mods]]
+modId="garth"
+version="${file.jarVersion}"
+displayName="Garth"
+logoFile="garth.png"
+#credits="Thanks for this example mod goes to Java"
+#authors="Love, Cheese and small house plants" #optional
+description='''
+WIP
+'''
+[[dependencies.garth]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.garth]]
+    modId="blueprint"
+    mandatory=true
+    versionRange="[1.18.2-5.3.1,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.garth]]
+    modId="undergarden"
+    mandatory=true
+    versionRange="[1.18.2-0.6.4,)"
+    ordering="AFTER"
+    side="BOTH"
