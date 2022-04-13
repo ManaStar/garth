@@ -27,6 +27,6 @@ WIP
 [[dependencies.garth]]
     modId="undergarden"
     mandatory=true
-    versionRange="[1.18.2-0.6.4,)"
+    versionRange="[0.6.4,)"
     ordering="AFTER"
     side="BOTH"
