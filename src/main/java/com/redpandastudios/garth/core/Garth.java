@@ -12,7 +12,6 @@ import org.slf4j.Logger;
 public class Garth
 {
     public static final String MOD_ID = "garth";
-
     public static final Logger LOGGER = LogUtils.getLogger();
     public static final RegistryHelper REGISTRY_HELPER = new RegistryHelper(MOD_ID);
 
